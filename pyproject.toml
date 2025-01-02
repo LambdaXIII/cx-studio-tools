@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cx-studio-tools"
+version = "0.1.0"
+description = "cx-studio toolset for easing labor works in studio"
+authors = ["xiii_1991 <xiii_1991@163.com>"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+rich = "^13.9.4"
+cx-studio = "^0.1.4"
+kivy = "^2.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
